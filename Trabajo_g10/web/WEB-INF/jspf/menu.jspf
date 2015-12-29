@@ -1,0 +1,9 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page pageEncoding="UTF-8" %>
+<h2>
+    MENU OPCIONES:
+    <a href="<c:url value="/crear.jsp" />">NUEVO REGISTRO</a>
+    |
+    <a href="<c:url value="/buscar.jsp" />">BUSCAR</a>
+</h2>
+<hr />

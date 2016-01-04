@@ -13,7 +13,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.transaction.UserTransaction;
 
- @Entity
+@Entity
  @Table(name="registro_alcoholemia")
 public class Alcoholicos implements Serializable {
      
